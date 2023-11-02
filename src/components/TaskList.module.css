@@ -1,0 +1,42 @@
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 4em 0 1.5em 0;
+  font-size: 87.5%;
+  font-weight: bold;
+}
+
+.stats span {
+  color: var(--gray-200);
+  padding: 0.125rem 0.5rem;
+  margin-left: 0.25rem;
+  border-radius: 999px;
+  background-color: var(--gray-400);
+}
+
+.createdTasks > strong {
+  color: var(--blue);
+}
+
+.concluded > strong {
+  color: var(--purple);
+}
+
+.list {
+  display: grid;
+  gap: 1rem;
+  list-style: none;
+}
+
+.emptyList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4em;
+  gap: 1rem;
+  color: var(--gray-300);
+}
+
+.emptyList svg {
+  opacity: 0.5;
+}
